@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "declaration": false,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ]
+  },
+  "angularCompilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "trace": true
+  },
+  "types": [
+    "core-js",
+    "hammerjs",
+    "node",
+    "selenium-webdriver",
+    "sinon",
+    "chai-spies"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "ngfactory",
+    "typings",
+    "../*/cypress/**/*"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  },
+  "skipLibCheck": true
+}
+
+
+//{
+//  "compileOnSave": false,
+//  "compilerOptions": {
+//    "baseUrl": "./",
+//    "outDir": "./dist/out-tsc",
+//    "sourceMap": true,
+//    "declaration": false,
+//    "downlevelIteration": true,
+//    "experimentalDecorators": true,
+//    "moduleResolution": "node",
+//    "importHelpers": true,
+//    "target": "es2015",
+//    "module": "es2020",
+//    "resolveJsonModule": true,
+//    "allowSyntheticDefaultImports": true,
+//    "emitDecoratorMetadata": true,
+//    "lib": [
+//      "es2018",
+//      "dom"
+//    ]
+//  }
+//}
+
+
+
